@@ -17,3 +17,7 @@
 [prune]
   go-tests = true
   unused-packages = true
+
+[[constraint]]
+  name = "github.com/vishvananda/netlink/nl"
+  version = "~1.1.0"
